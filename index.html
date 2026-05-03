@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoScent - Your Scent. Zero Waste.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="assets/dreamina-2026-05-03-2324-__Purpose___ Auto-playing, muted, loopin....mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="logo">EcoScent</h1>
+            <p class="tagline">Your Scent. Zero Waste.</p>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <!-- Sections -->
+    <main>
+        <!-- Section 1: The Refill System -->
+        <section class="content-section">
+            <div class="text-block">
+                <h2>The EcoPod System</h2>
+                <p>A beautifully designed frosted glass bottle that lasts a lifetime. Just drop in a compostable refill pod, add water, and you have premium concentrated liquid detergent. Zero plastic waste, 100% clean clothes.</p>
+            </div>
+            <div class="image-wrapper reveal-block">
+                <img src="assets/Reusable_detergent_bottle_with_pods_202605031901.jpeg" alt="EcoScent Refill System">
+                <div class="reveal-cover"></div>
+            </div>
+        </section>
+
+        <!-- Section 2: Scent Personalization -->
+        <section class="content-section reverse">
+            <div class="text-block">
+                <h2>Your Signature Scent</h2>
+                <p>Why smell like a generic supermarket aisle? Choose from our curated library of fine fragrances, or send us a sample of your favorite perfume and we will replicate it perfectly for your laundry.</p>
+            </div>
+            <div class="image-wrapper reveal-block">
+                <img src="assets/Glass_vials_with_scent_inspirations_202605031945.jpeg" alt="Scent Personalization">
+                <div class="reveal-cover"></div>
+            </div>
+        </section>
+
+        <!-- Section 3: The Result -->
+        <section class="content-section">
+            <div class="text-block">
+                <h2>Pure Comfort</h2>
+                <p>Plant-based enzyme technology lifts the toughest stains while remaining gentle on your skin. Experience the joy of burying your face in freshly washed linens that smell exactly how you want them to.</p>
+            </div>
+            <div class="image-wrapper reveal-block">
+                <img src="assets/Woman_burying_face_in_towels_202605031906 (1).jpeg" alt="Fresh Laundry">
+                <div class="reveal-cover"></div>
+            </div>
+        </section>
+
+        <!-- Section 4: Delivered -->
+        <section class="content-section reverse">
+            <div class="text-block">
+                <h2>Delivered to Your Door</h2>
+                <p>Never run out of detergent again. Our subscription box delivers your personalized scent pods straight to your mailbox right when you need them. Housed in 100% recycled, compostable packaging.</p>
+            </div>
+            <div class="image-wrapper reveal-block">
+                <img src="assets/Subscription_box_with_refill_pods_202605031905.jpeg" alt="Subscription Box">
+                <div class="reveal-cover"></div>
+            </div>
+        </section>
+
+        <!-- Section 5: Custom Scent Builder -->
+        <section class="scent-builder-section" id="scent-builder">
+            <div class="scent-builder-header">
+                <h2>Craft Your Signature Scent</h2>
+                <p>Become the perfumer. Select your preferred exit, heart, and base notes to create a fragrance that is uniquely yours.</p>
+            </div>
+
+            <div class="scent-builder-container reveal-block">
+                <div class="reveal-cover"></div>
+                
+                                <!-- EXIT NOTES -->
+                <div class="note-tier">
+                    <div class="tier-divider"><span>EXIT NOTES</span></div>
+                    <div class="note-options-wrapper">
+                        <div class="note-options" data-tier="exit">
+                            <div class="note-item" data-note="lavender">
+                                <div class="note-icon">🌿</div>
+                                <span>lavender</span>
+                            </div>
+                            <div class="note-item" data-note="mint">
+                                <div class="note-icon">🍃</div>
+                                <span>mint</span>
+                            </div>
+                            <div class="note-item" data-note="cardamom">
+                                <div class="note-icon">🌰</div>
+                                <span>cardamom</span>
+                            </div>
+                            <div class="note-item" data-note="bergamot">
+                                <div class="note-icon">🍋</div>
+                                <span>bergamot</span>
+                            </div>
+                            <div class="note-item" data-note="southernwood">
+                                <div class="note-icon">🪴</div>
+                                <span>southernwood</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="lemon">
+                                <div class="note-icon">🍋</div>
+                                <span>lemon</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="grapefruit">
+                                <div class="note-icon">🍊</div>
+                                <span>grapefruit</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="orange">
+                                <div class="note-icon">🍊</div>
+                                <span>orange</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="mandarin">
+                                <div class="note-icon">🍊</div>
+                                <span>mandarin</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="basil">
+                                <div class="note-icon">🌿</div>
+                                <span>basil</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="rosemary">
+                                <div class="note-icon">🌿</div>
+                                <span>rosemary</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="lemongrass">
+                                <div class="note-icon">🌾</div>
+                                <span>lemongrass</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="sage">
+                                <div class="note-icon">🌿</div>
+                                <span>sage</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="pine">
+                                <div class="note-icon">🌲</div>
+                                <span>pine</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="eucalyptus">
+                                <div class="note-icon">🌿</div>
+                                <span>eucalyptus</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="petitgrain">
+                                <div class="note-icon">🍃</div>
+                                <span>petitgrain</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="neroli">
+                                <div class="note-icon">🌸</div>
+                                <span>neroli</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="lime">
+                                <div class="note-icon">🍋</div>
+                                <span>lime</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="coriander">
+                                <div class="note-icon">🌿</div>
+                                <span>coriander</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="juniper">
+                                <div class="note-icon">🫐</div>
+                                <span>juniper</span>
+                            </div>
+                        </div>
+                        <button class="expand-tier-btn" aria-label="Expand EXIT NOTES">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- HEART -->
+                <div class="note-tier">
+                    <div class="tier-divider"><span>HEART</span></div>
+                    <div class="note-options-wrapper">
+                        <div class="note-options" data-tier="heart">
+                            <div class="note-item" data-note="cinnamon">
+                                <div class="note-icon">🍂</div>
+                                <span>cinnamon</span>
+                            </div>
+                            <div class="note-item" data-note="orange_blossom">
+                                <div class="note-icon">🌸</div>
+                                <span>orange blossom</span>
+                            </div>
+                            <div class="note-item" data-note="caraway">
+                                <div class="note-icon">🌾</div>
+                                <span>caraway</span>
+                            </div>
+                            <div class="note-item" data-note="rose">
+                                <div class="note-icon">🌹</div>
+                                <span>rose</span>
+                            </div>
+                            <div class="note-item" data-note="jasmine">
+                                <div class="note-icon">🌼</div>
+                                <span>jasmine</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="ylang-ylang">
+                                <div class="note-icon">🌼</div>
+                                <span>ylang-ylang</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="geranium">
+                                <div class="note-icon">🌺</div>
+                                <span>geranium</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="nutmeg">
+                                <div class="note-icon">🌰</div>
+                                <span>nutmeg</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="clove">
+                                <div class="note-icon">🍂</div>
+                                <span>clove</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="black_pepper">
+                                <div class="note-icon">🌑</div>
+                                <span>black pepper</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="chamomile">
+                                <div class="note-icon">🌼</div>
+                                <span>chamomile</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="violet">
+                                <div class="note-icon">🪻</div>
+                                <span>violet</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="freesia">
+                                <div class="note-icon">🌸</div>
+                                <span>freesia</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="gardenia">
+                                <div class="note-icon">💮</div>
+                                <span>gardenia</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="lily_of_the_valley">
+                                <div class="note-icon">🪷</div>
+                                <span>lily of the valley</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="peony">
+                                <div class="note-icon">🌸</div>
+                                <span>peony</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="magnolia">
+                                <div class="note-icon">🌺</div>
+                                <span>magnolia</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="ginger">
+                                <div class="note-icon">🫚</div>
+                                <span>ginger</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="coriander_seed">
+                                <div class="note-icon">🌾</div>
+                                <span>coriander seed</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="orchid">
+                                <div class="note-icon">🌸</div>
+                                <span>orchid</span>
+                            </div>
+                        </div>
+                        <button class="expand-tier-btn" aria-label="Expand HEART">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- BASE -->
+                <div class="note-tier">
+                    <div class="tier-divider"><span>BASE</span></div>
+                    <div class="note-options-wrapper">
+                        <div class="note-options" data-tier="base">
+                            <div class="note-item" data-note="vanilla">
+                                <div class="note-icon">🌼</div>
+                                <span>vanilla</span>
+                            </div>
+                            <div class="note-item" data-note="tonka_bean">
+                                <div class="note-icon">🫘</div>
+                                <span>tonka bean</span>
+                            </div>
+                            <div class="note-item" data-note="amber">
+                                <div class="note-icon">🍯</div>
+                                <span>amber</span>
+                            </div>
+                            <div class="note-item" data-note="sandalwood">
+                                <div class="note-icon">🪵</div>
+                                <span>sandalwood</span>
+                            </div>
+                            <div class="note-item" data-note="cedar">
+                                <div class="note-icon">🌲</div>
+                                <span>cedar</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="patchouli">
+                                <div class="note-icon">🍂</div>
+                                <span>patchouli</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="vetiver">
+                                <div class="note-icon">🌾</div>
+                                <span>vetiver</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="musk">
+                                <div class="note-icon">☁️</div>
+                                <span>musk</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="oakmoss">
+                                <div class="note-icon">🌿</div>
+                                <span>oakmoss</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="leather">
+                                <div class="note-icon">👞</div>
+                                <span>leather</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="frankincense">
+                                <div class="note-icon">🪨</div>
+                                <span>frankincense</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="myrrh">
+                                <div class="note-icon">🪨</div>
+                                <span>myrrh</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="benzoin">
+                                <div class="note-icon">🍯</div>
+                                <span>benzoin</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="oud">
+                                <div class="note-icon">🪵</div>
+                                <span>oud</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="balsam">
+                                <div class="note-icon">🌲</div>
+                                <span>balsam</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="cypress">
+                                <div class="note-icon">🌲</div>
+                                <span>cypress</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="guaiac_wood">
+                                <div class="note-icon">🪵</div>
+                                <span>guaiac wood</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="labdanum">
+                                <div class="note-icon">🍂</div>
+                                <span>labdanum</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="rosewood">
+                                <div class="note-icon">🪵</div>
+                                <span>rosewood</span>
+                            </div>
+                            <div class="note-item hidden-note" data-note="cashmere">
+                                <div class="note-icon">🧶</div>
+                                <span>cashmere</span>
+                            </div>
+                        </div>
+                        <button class="expand-tier-btn" aria-label="Expand BASE">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="custom-scent-summary">
+                    <h3>Your Formula</h3>
+                    <p id="formula-display">Select one note from each tier.</p>
+                    <button type="button" class="btn-secondary" id="save-formula-btn" disabled>Add to Starter Kit</button>
+                    <div class="send-sample-option">
+                        <p>Or prefer we replicate a favorite perfume?</p>
+                        <a href="#buy-section" class="link-send-sample">Send us a sample</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Buying Section -->
+        <section class="buy-section" id="buy-section">
+            <h2>Start Your Zero Waste Journey</h2>
+            <p>Get your starter kit: 1 Reusable Glass Bottle + 3 Scent Pods</p>
+            <div class="buy-card reveal-block">
+                <div class="reveal-cover"></div>
+                <div class="buy-card-content">
+                    <h3>EcoScent Starter Kit</h3>
+                    <div class="price">€24.00</div>
+                    <form class="buy-form">
+                        <select name="scent" required>
+                            <option value="" disabled selected>Select Your Scent</option>
+                            <option value="lavender">Wild Lavender & Cedar</option>
+                            <option value="ocean">Ocean Breeze & Sea Salt</option>
+                            <option value="cotton">Fresh Cotton & Vanilla</option>
+                            <option value="custom-builder" id="opt-custom-builder">My Custom Formula</option>
+                            <option value="custom">Send My Own Scent (+€5.00)</option>
+                        </select>
+                        <select name="subscription" required>
+                            <option value="one-time">One-time purchase</option>
+                            <option value="subscribe">Subscribe & Save 15%</option>
+                        </select>
+                        <button type="button" class="btn-primary">Checkout</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 EcoScent. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
